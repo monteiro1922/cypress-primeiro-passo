@@ -1,5 +1,5 @@
 describe('Orange HRM Tests', () => {
-  it('Login - Successs', () => {
+  it('Login - Success', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     cy.get('[name="username"]').type('Admin')
     cy.get("[name='password']").type('admin123')
@@ -15,4 +15,4 @@ describe('Orange HRM Tests', () => {
     cy.get("[role='alert']")
     
   })
-})
+}) 
