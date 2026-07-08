@@ -10,20 +10,19 @@ class MenuPage {
     }  
 
     accessMyInfo() {
-        cy.get(this.selectorsList.myInfoButton).click()
+        cy.get(this.selectorsList().myInfoButton).click()
 
 
     }
 
-    accessMyInfo() {
-        cy.get(this.selectorsList().performanceButton).click
-    }
 
     accessorPerformance() {
-
-
+        cy.get(this.selectorsList().performanceButton).click()
     }
+
+    
             
 }
+
 
 export default MenuPage
