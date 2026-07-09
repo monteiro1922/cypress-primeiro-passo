@@ -10,7 +10,7 @@ npm install
 ```
 > **NOTE:**
 >
->it is necessary to have **node** installed
+>It is necessary to have **node** installed
 
 ### Running
 ```bash
