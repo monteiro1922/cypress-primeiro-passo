@@ -1,20 +1,36 @@
-Minha Automação com Cypress
-Este projeto utiliza o Cypress para automatizar os testes de um recurso de login e de atualização de usuário. O Cypress é um framework de testes ponta a ponta (E2E) baseado em JavaScript que permite aos desenvolvedores escrever testes e executá-los em um navegador real.
+# Cypress E2E Automation
 
-Instalação
-Bash
+Projeto desenvolvido para automação de testes end-to-end (E2E) utilizando o Cypress, focado na validação de fluxos críticos como login e atualização de usuários.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Cypress:** Framework de testes E2E baseado em JavaScript para execução de cenários em navegador real.
+* **JavaScript:** Linguagem utilizada para a escrita dos scripts de teste.
+
+## ⚙️ Pré-requisitos
+
+* É necessário ter o **Node.js** instalado na sua máquina para gerenciar as dependências e executar o projeto.
+
+## 📥 Instalação
+
+Para instalar as dependências necessárias do projeto, abra o terminal na pasta raiz e execute:
+
+```bash
 npm install
-NOTA:
-É necessário ter o Node.js instalado.
 
-Execução
-Bash
-# Para abrir a interface gráfica do Cypress
+```
+
+## 🎯 Como Executar os Testes
+
+* **Para abrir a interface gráfica do Cypress (modo interativo):**
+```bash
 npx cypress open
 
-# Para executar a automação via linha de comando
+```
+
+
+* **Para executar a automação via linha de comando (modo headless):**
+```bash
 npx cypress run
 
-# Run the automation by command line
-npx cypress run
 ```
